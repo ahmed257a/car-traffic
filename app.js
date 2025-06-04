@@ -101,6 +101,9 @@ app.use((req, res, next) => {
 });
 
 // Routes
+app.get('/', (req, res) => {
+  res.send('<h1>Hello from home </h1>')
+})
 app.use('/api/v1/users', userRouter);
 app.use('/api/v1/cars', carRouter);
 
