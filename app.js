@@ -27,6 +27,7 @@ const corsOptions = {
     'http://localhost:3000',
     'http://localhost:5500',
     'http://localhost:5501',
+    'https://ahmedpy122.github.io'
   ],
   methods: ['GET', 'POST', 'PATCH', 'DELETE'],
   credentials: true,
